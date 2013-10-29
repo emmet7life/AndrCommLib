@@ -20,6 +20,8 @@ import com.weibo.sdk.android.util.AccessTokenKeeper;
 
 public class OauthActivity extends Activity {
 
+	// 测试提交github
+
 	private final String TAG = "OauthActivity";
 
 	private Activity mContext;
