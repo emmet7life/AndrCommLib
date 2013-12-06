@@ -9,27 +9,1108 @@ package org.mrchen.commlib;
 
 public final class R {
     public static final class anim {
-        public static int sweep_rotate=0x7f030000;
+        public static int dialog_enter_anim=0x7f040000;
+        public static int dialog_exit_anim=0x7f040001;
+        public static int sweep_rotate=0x7f040002;
     }
     public static final class attr {
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static int SlidingPanelLayoutStyle=0x7f010029;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static int SwipeBackLayoutStyle=0x7f010025;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static int behindOffset=0x7f010006;
+        /** <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static int behindScrollScale=0x7f010008;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static int behindWidth=0x7f010007;
+        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static int centered=0x7f010030;
+        /**  Screen edge padding. 
+         <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static int clipPadding=0x7f01003b;
+        /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static int date_format=0x7f010002;
+        /** 
+             The state (true for on, or false for off) that causes dependents to be disabled. By default,
+             dependents will be disabled when this is unchecked, so the value of this preference is false.
+        
+         <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static int disableDependentsState=0x7f010015;
+        /** <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>left</code></td><td>0</td><td></td></tr>
+<tr><td><code>right</code></td><td>1</td><td></td></tr>
+<tr><td><code>bottom</code></td><td>2</td><td></td></tr>
+<tr><td><code>all</code></td><td>3</td><td></td></tr>
+</table>
+         */
+        public static int edge_flag=0x7f010021;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static int edge_size=0x7f010020;
+        /** <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static int effect_weight=0x7f010001;
+        /** <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static int fadeDegree=0x7f01000e;
+        /**  Length of the delay to fade the indicator. 
+         <p>Must be an integer value, such as "<code>100</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static int fadeDelay=0x7f010047;
+        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static int fadeEnabled=0x7f01000d;
+        /**  Length of the indicator fade to transparent. 
+         <p>Must be an integer value, such as "<code>100</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static int fadeLength=0x7f010048;
+        /**  Whether or not the selected indicator fades. 
+         <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static int fades=0x7f010046;
+        /**  Color of the filled circle that represents the current page. 
+         <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static int fillColor=0x7f010034;
+        /**  Color of the footer line and indicator. 
+         <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static int footerColor=0x7f01003c;
+        /**  Height of the indicator above the footer line. 
+         <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static int footerIndicatorHeight=0x7f01003f;
+        /**  Style of the indicator. Default is triangle. 
+         <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>none</code></td><td>0</td><td></td></tr>
+<tr><td><code>triangle</code></td><td>1</td><td></td></tr>
+<tr><td><code>underline</code></td><td>2</td><td></td></tr>
+</table>
+         */
+        public static int footerIndicatorStyle=0x7f01003e;
+        /**  Left and right padding of the underline indicator. 
+         <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static int footerIndicatorUnderlinePadding=0x7f010040;
+        /**  Height of the footer line. 
+         <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static int footerLineHeight=0x7f01003d;
+        /**  Padding between the bottom of the title and the footer. 
+         <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static int footerPadding=0x7f010041;
+        /**  Width of the gap between each indicator line. 
+         <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static int gapWidth=0x7f01003a;
+        /**  Position of the line. 
+         <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>bottom</code></td><td>0</td><td></td></tr>
+<tr><td><code>top</code></td><td>1</td><td></td></tr>
+</table>
+         */
+        public static int linePosition=0x7f010042;
+        /**  Width of each indicator line. 
+         <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static int lineWidth=0x7f010039;
+        /** <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>left</code></td><td>0</td><td></td></tr>
+<tr><td><code>right</code></td><td>1</td><td></td></tr>
+</table>
+         */
+        public static int mode=0x7f010003;
+        /**  Color of the filled circles that represents pages. 
+         <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static int pageColor=0x7f010035;
+        /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be a floating point value, such as "<code>1.2</code>".
+         */
+        public static int panel_anchor=0x7f010027;
+        /** <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>left</code></td><td>1</td><td></td></tr>
+<tr><td><code>right</code></td><td>2</td><td></td></tr>
+<tr><td><code>top</code></td><td>4</td><td></td></tr>
+<tr><td><code>bottom</code></td><td>8</td><td></td></tr>
+</table>
+         */
+        public static int panel_direction=0x7f010026;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static int panel_shadow=0x7f010028;
+        /** <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>left</code></td><td>0</td><td></td></tr>
+<tr><td><code>right</code></td><td>1</td><td></td></tr>
+<tr><td><code>top</code></td><td>2</td><td></td></tr>
+<tr><td><code>bottom</code></td><td>3</td><td></td></tr>
+</table>
+         */
+        public static int pull_direction=0x7f010000;
+        /**  Radius of the circles. This is also the spacing between circles. 
+         <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static int radius=0x7f010036;
+        /**  Whether or not the selected item is displayed as bold. 
+         <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static int selectedBold=0x7f010043;
+        /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static int selectedColor=0x7f010031;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static int selectorDrawable=0x7f010010;
+        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static int selectorEnabled=0x7f01000f;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static int shadowDrawable=0x7f01000b;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static int shadowWidth=0x7f01000c;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static int shadow_bottom=0x7f010024;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static int shadow_left=0x7f010022;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static int shadow_right=0x7f010023;
+        /**  Whether or not the selected indicator snaps to the circles. 
+         <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static int snap=0x7f010037;
+        /**  Color of the open circles. 
+         <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static int strokeColor=0x7f010038;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static int strokeWidth=0x7f010032;
+        /** 
+             The summary for the Preference in a PreferenceActivity screen when the
+             SwitchPreference is unchecked. If separate on/off summaries are not
+             needed, the summary attribute can be used instead.
+        
+         <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static int summaryOff=0x7f010012;
+        /** 
+             The summary for the Preference in a PreferenceActivity screen when the
+             SwitchPreference is checked. If separate on/off summaries are not
+             needed, the summary attribute can be used instead.
+        
+         <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static int summaryOn=0x7f010011;
+        /**  Minimum width for the switch component 
+         <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static int switchMinWidth=0x7f01001c;
+        /**  Minimum space between the switch and caption text 
+         <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static int switchPadding=0x7f01001d;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static int switchPreferenceStyle=0x7f01001f;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static int switchStyle=0x7f01001e;
+        /**  TextAppearance style for text displayed on the switch thumb. 
+         <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static int switchTextAppearance=0x7f01001b;
+        /** 
+             The text used on the switch itself when in the "off" state.
+             This should be a very SHORT string, as it appears in a small space.
+        
+         <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static int switchTextOff=0x7f010014;
+        /** 
+             The text used on the switch itself when in the "on" state.
+             This should be a very SHORT string, as it appears in a small space.
+        
+         <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static int switchTextOn=0x7f010013;
+        /**  Text to use when the switch is in the unchecked/"off" state. 
+         <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static int textOff=0x7f010019;
+        /**  Text to use when the switch is in the checked/"on" state. 
+         <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static int textOn=0x7f010018;
+        /**  Drawable to use as the "thumb" that switches back and forth. 
+         <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static int thumb=0x7f010016;
+        /**  Amount of padding on either side of text within the switch thumb. 
+         <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static int thumbTextPadding=0x7f01001a;
+        /**  Padding between titles when bumping into each other. 
+         <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static int titlePadding=0x7f010044;
+        /**  Padding between titles and the top of the View. 
+         <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static int topPadding=0x7f010045;
+        /** <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>margin</code></td><td>0</td><td></td></tr>
+<tr><td><code>fullscreen</code></td><td>1</td><td></td></tr>
+</table>
+         */
+        public static int touchModeAbove=0x7f010009;
+        /** <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>margin</code></td><td>0</td><td></td></tr>
+<tr><td><code>fullscreen</code></td><td>1</td><td></td></tr>
+</table>
+         */
+        public static int touchModeBehind=0x7f01000a;
+        /**  Drawable to use as the "track" that the switch thumb slides within. 
+         <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static int track=0x7f010017;
+        /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static int unselectedColor=0x7f010033;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static int viewAbove=0x7f010004;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static int viewBehind=0x7f010005;
+        /**  Style of the circle indicator. 
+         <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static int vpiCirclePageIndicatorStyle=0x7f01002a;
+        /**  Style of the icon indicator's views. 
+         <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static int vpiIconPageIndicatorStyle=0x7f01002b;
+        /**  Style of the line indicator. 
+         <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static int vpiLinePageIndicatorStyle=0x7f01002c;
+        /**  Style of the tab indicator's tabs. 
+         <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static int vpiTabPageIndicatorStyle=0x7f01002e;
+        /**  Style of the title indicator. 
+         <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static int vpiTitlePageIndicatorStyle=0x7f01002d;
+        /**  Style of the underline indicator. 
+         <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static int vpiUnderlinePageIndicatorStyle=0x7f01002f;
+    }
+    public static final class bool {
+        public static int default_circle_indicator_centered=0x7f0a0000;
+        public static int default_circle_indicator_snap=0x7f0a0001;
+        public static int default_line_indicator_centered=0x7f0a0002;
+        public static int default_title_indicator_selected_bold=0x7f0a0003;
+        public static int default_underline_indicator_fades=0x7f0a0004;
+    }
+    public static final class color {
+        public static int default_circle_indicator_fill_color=0x7f060009;
+        public static int default_circle_indicator_page_color=0x7f06000a;
+        public static int default_circle_indicator_stroke_color=0x7f06000b;
+        public static int default_line_indicator_selected_color=0x7f06000c;
+        public static int default_line_indicator_unselected_color=0x7f06000d;
+        public static int default_title_indicator_footer_color=0x7f06000e;
+        public static int default_title_indicator_selected_color=0x7f06000f;
+        public static int default_title_indicator_text_color=0x7f060010;
+        public static int default_underline_indicator_selected_color=0x7f060011;
+        public static int drag_filter=0x7f060000;
+        public static int vpi__background_holo_dark=0x7f060001;
+        public static int vpi__background_holo_light=0x7f060002;
+        public static int vpi__bright_foreground_disabled_holo_dark=0x7f060005;
+        public static int vpi__bright_foreground_disabled_holo_light=0x7f060006;
+        public static int vpi__bright_foreground_holo_dark=0x7f060003;
+        public static int vpi__bright_foreground_holo_light=0x7f060004;
+        public static int vpi__bright_foreground_inverse_holo_dark=0x7f060007;
+        public static int vpi__bright_foreground_inverse_holo_light=0x7f060008;
+        public static int vpi__dark_theme=0x7f060012;
+        public static int vpi__light_theme=0x7f060013;
     }
     public static final class dimen {
-        /**  Default screen margins, per the Android Design guidelines. 
-
+        /** 
          Customize dimensions originally defined in res/values/dimens.xml (such as
          screen margins) for sw720dp devices (e.g. 10" tablets) in landscape here.
     
          */
-        public static int activity_horizontal_margin=0x7f040000;
-        public static int activity_vertical_margin=0x7f040001;
+        public static int activity_horizontal_margin=0x7f070000;
+        public static int activity_vertical_margin=0x7f070001;
+        public static int app_title_height=0x7f070004;
+        public static int calendar_grid_item_height=0x7f070002;
+        public static int custom_dialog_width=0x7f070003;
+        public static int default_circle_indicator_radius=0x7f070009;
+        public static int default_circle_indicator_stroke_width=0x7f07000a;
+        public static int default_line_indicator_gap_width=0x7f07000c;
+        public static int default_line_indicator_line_width=0x7f07000b;
+        public static int default_line_indicator_stroke_width=0x7f07000d;
+        public static int default_title_indicator_clip_padding=0x7f07000e;
+        public static int default_title_indicator_footer_indicator_height=0x7f070010;
+        public static int default_title_indicator_footer_indicator_underline_padding=0x7f070011;
+        public static int default_title_indicator_footer_line_height=0x7f07000f;
+        public static int default_title_indicator_footer_padding=0x7f070012;
+        public static int default_title_indicator_text_size=0x7f070013;
+        public static int default_title_indicator_title_padding=0x7f070014;
+        public static int default_title_indicator_top_padding=0x7f070015;
+        public static int preference_icon_minWidth=0x7f070007;
+        public static int preference_item_padding_inner=0x7f070006;
+        public static int preference_item_padding_side=0x7f070005;
+        public static int preference_widget_width=0x7f070008;
     }
     public static final class drawable {
-        public static int ic_launcher=0x7f020000;
+        public static int above_shadow=0x7f020000;
+        public static int below_shadow=0x7f020001;
+        public static int bg_app_head_1=0x7f020002;
+        public static int bg_bookshelf_head_sweep=0x7f020003;
+        public static int bg_nothing=0x7f020004;
+        public static int bitmap_repeat_bg_1=0x7f020005;
+        public static int calendar_grid_item_bg=0x7f020006;
+        public static int calendar_grid_item_invisible_bg=0x7f020007;
+        public static int calendar_head_week_bar_bg_xml=0x7f020008;
+        public static int calendar_head_week_bg=0x7f020009;
+        public static int general__shared__btn_1_normal=0x7f02000a;
+        public static int general__shared__btn_1_pressed=0x7f02000b;
+        public static int ic_launcher=0x7f02000c;
+        public static int icon_scroll_logo=0x7f02000d;
+        public static int lined_text_view_line_bg=0x7f02000e;
+        public static int mask=0x7f02000f;
+        public static int shadow_bottom=0x7f020010;
+        public static int shadow_left=0x7f020011;
+        public static int shadow_right=0x7f020012;
+        public static int switch_bg_disabled_holo_dark=0x7f020013;
+        public static int switch_bg_disabled_holo_light=0x7f020014;
+        public static int switch_bg_focused_holo_dark=0x7f020015;
+        public static int switch_bg_focused_holo_light=0x7f020016;
+        public static int switch_bg_holo_dark=0x7f020017;
+        public static int switch_bg_holo_light=0x7f020018;
+        public static int switch_inner_holo_dark=0x7f020019;
+        public static int switch_inner_holo_light=0x7f02001a;
+        public static int switch_thumb_activated_holo_dark=0x7f02001b;
+        public static int switch_thumb_activated_holo_light=0x7f02001c;
+        public static int switch_thumb_disabled_holo_dark=0x7f02001d;
+        public static int switch_thumb_disabled_holo_light=0x7f02001e;
+        public static int switch_thumb_holo_dark=0x7f02001f;
+        public static int switch_thumb_holo_light=0x7f020020;
+        public static int switch_thumb_pressed_holo_dark=0x7f020021;
+        public static int switch_thumb_pressed_holo_light=0x7f020022;
+        public static int switch_track_holo_dark=0x7f020023;
+        public static int switch_track_holo_light=0x7f020024;
+        public static int tabs_nav_ui_bottom_bar_bg=0x7f020025;
+        public static int tabs_nav_ui_bottom_bar_bg_xml=0x7f020026;
+        public static int tabs_nav_ui_divider_bar_bg=0x7f020027;
+        public static int tabs_nav_ui_top_bar_bg=0x7f020028;
+        public static int tabs_nav_ui_top_bar_bg_xml=0x7f020029;
+        public static int tucao_tab_item2=0x7f02002a;
+        public static int tucao_tab_item2_select=0x7f02002b;
+        public static int tucao_tab_item2_selector=0x7f02002c;
+        public static int tucao_tab_item3=0x7f02002d;
+        public static int tucao_tab_item3_select=0x7f02002e;
+        public static int tucao_tab_item3_selector=0x7f02002f;
+        public static int vpi__tab_indicator=0x7f020030;
+        public static int vpi__tab_selected_focused_holo=0x7f020031;
+        public static int vpi__tab_selected_holo=0x7f020032;
+        public static int vpi__tab_selected_pressed_holo=0x7f020033;
+        public static int vpi__tab_unselected_focused_holo=0x7f020034;
+        public static int vpi__tab_unselected_holo=0x7f020035;
+        public static int vpi__tab_unselected_pressed_holo=0x7f020036;
+    }
+    public static final class id {
+        public static int all=0x7f050006;
+        public static int bottom=0x7f050003;
+        public static int calendar_item_day=0x7f050013;
+        public static int calendar_item_probability=0x7f050014;
+        public static int expandable=0x7f050008;
+        public static int expandable_toggle_button=0x7f050007;
+        public static int fullscreen=0x7f050005;
+        public static int include_base_webview_root=0x7f050015;
+        public static int layout_bottom_webview_goback=0x7f050019;
+        public static int layout_bottom_webview_goforward=0x7f05001a;
+        public static int layout_bottom_webview_progress=0x7f05001b;
+        public static int layout_bottom_webview_refresh=0x7f05001c;
+        public static int layout_bottom_webview_title_rela=0x7f050018;
+        public static int layout_head_2_title=0x7f05001e;
+        public static int layout_head_2_title_linear=0x7f05001d;
+        public static int left=0x7f050000;
+        public static int margin=0x7f050004;
+        /**  Used with View#setTag(int) to specify a position for the active view. 
+         */
+        public static int mdActiveViewPosition=0x7f05000e;
+        /**  ID used when defining the content layout in XML. 
+         */
+        public static int mdContent=0x7f050009;
+        /**  ID used when defining the menu layout in XML. 
+         */
+        public static int mdMenu=0x7f05000a;
+        /**  The ID of the content container. 
+         */
+        public static int md__content=0x7f05000b;
+        /**  The ID of the drawer. 
+         */
+        public static int md__drawer=0x7f05000d;
+        /**  The ID of the menu container. 
+         */
+        public static int md__menu=0x7f05000c;
+        public static int none=0x7f050010;
+        public static int progressBar=0x7f050016;
+        public static int right=0x7f050001;
+        public static int selected_view=0x7f05000f;
+        public static int slidingmenumain=0x7f050020;
+        public static int swipe=0x7f050021;
+        public static int switchWidget=0x7f05001f;
+        public static int top=0x7f050002;
+        public static int triangle=0x7f050011;
+        public static int underline=0x7f050012;
+        public static int webview=0x7f050017;
+    }
+    public static final class integer {
+        public static int default_circle_indicator_orientation=0x7f0b0000;
+        public static int default_title_indicator_footer_indicator_style=0x7f0b0001;
+        public static int default_title_indicator_line_position=0x7f0b0002;
+        public static int default_underline_indicator_fade_delay=0x7f0b0003;
+        public static int default_underline_indicator_fade_length=0x7f0b0004;
+    }
+    public static final class layout {
+        public static int history_hit_calendar_grid_item=0x7f030000;
+        public static int include_base_webview=0x7f030001;
+        public static int include_base_webview_bottom=0x7f030002;
+        public static int include_divider_style_1=0x7f030003;
+        public static int include_head_2=0x7f030004;
+        public static int preference=0x7f030005;
+        public static int preference_widget_switch=0x7f030006;
+        public static int slidingmenumain=0x7f030007;
+        public static int swipeback_layout=0x7f030008;
     }
     public static final class string {
-        public static int action_settings=0x7f050001;
-        public static int app_name=0x7f050000;
-        public static int hello_world=0x7f050002;
+        public static int action_settings=0x7f080001;
+        public static int app_name=0x7f080000;
+        public static int hello_world=0x7f080002;
+        public static int icon_adjust=0x7f080044;
+        public static int icon_align_center=0x7f08003a;
+        public static int icon_align_justify=0x7f08003c;
+        public static int icon_align_left=0x7f080039;
+        public static int icon_align_right=0x7f08003b;
+        public static int icon_ambulance=0x7f0800e4;
+        public static int icon_anchor=0x7f080125;
+        public static int icon_angle_down=0x7f0800f1;
+        public static int icon_angle_left=0x7f0800ee;
+        public static int icon_angle_right=0x7f0800ef;
+        public static int icon_angle_up=0x7f0800f0;
+        public static int icon_arrow_down=0x7f080063;
+        public static int icon_arrow_left=0x7f080060;
+        public static int icon_arrow_right=0x7f080061;
+        public static int icon_arrow_up=0x7f080062;
+        public static int icon_asterisk=0x7f080069;
+        public static int icon_backward=0x7f08004c;
+        public static int icon_ban_circle=0x7f08005f;
+        public static int icon_bar_chart=0x7f08007e;
+        public static int icon_barcode=0x7f08002d;
+        public static int icon_beaker=0x7f0800b1;
+        public static int icon_beer=0x7f0800e7;
+        public static int icon_bell=0x7f08009e;
+        public static int icon_bell_alt=0x7f0800de;
+        public static int icon_bold=0x7f080035;
+        public static int icon_bolt=0x7f0800d3;
+        public static int icon_book=0x7f080030;
+        public static int icon_bookmark=0x7f080031;
+        public static int icon_bookmark_empty=0x7f080094;
+        public static int icon_briefcase=0x7f0800ac;
+        public static int icon_building=0x7f0800e2;
+        public static int icon_bullhorn=0x7f08009d;
+        public static int icon_bullseye=0x7f080127;
+        public static int icon_calendar=0x7f080072;
+        public static int icon_calendar_empty=0x7f08011b;
+        public static int icon_camera=0x7f080033;
+        public static int icon_camera_retro=0x7f080081;
+        public static int icon_caret_down=0x7f0800c4;
+        public static int icon_caret_left=0x7f0800c6;
+        public static int icon_caret_right=0x7f0800c7;
+        public static int icon_caret_up=0x7f0800c5;
+        public static int icon_certificate=0x7f08009f;
+        public static int icon_check=0x7f080048;
+        public static int icon_check_empty=0x7f080093;
+        public static int icon_check_minus=0x7f08012e;
+        public static int icon_check_sign=0x7f080131;
+        public static int icon_chevron_down=0x7f080077;
+        public static int icon_chevron_left=0x7f080054;
+        public static int icon_chevron_right=0x7f080055;
+        public static int icon_chevron_sign_down=0x7f080122;
+        public static int icon_chevron_sign_left=0x7f08011f;
+        public static int icon_chevron_sign_right=0x7f080120;
+        public static int icon_chevron_sign_up=0x7f080121;
+        public static int icon_chevron_up=0x7f080076;
+        public static int icon_circle=0x7f0800fa;
+        public static int icon_circle_arrow_down=0x7f0800a7;
+        public static int icon_circle_arrow_left=0x7f0800a4;
+        public static int icon_circle_arrow_right=0x7f0800a5;
+        public static int icon_circle_arrow_up=0x7f0800a6;
+        public static int icon_circle_blank=0x7f0800f6;
+        public static int icon_cloud=0x7f0800b0;
+        public static int icon_cloud_download=0x7f0800d9;
+        public static int icon_cloud_upload=0x7f0800da;
+        public static int icon_code=0x7f080108;
+        public static int icon_code_fork=0x7f08010f;
+        public static int icon_coffee=0x7f0800df;
+        public static int icon_cog=0x7f080018;
+        public static int icon_cogs=0x7f080083;
+        public static int icon_collapse_alt=0x7f0800ff;
+        public static int icon_columns=0x7f0800c8;
+        public static int icon_comment=0x7f080074;
+        public static int icon_comment_alt=0x7f0800d1;
+        public static int icon_comments=0x7f080084;
+        public static int icon_comments_alt=0x7f0800d2;
+        public static int icon_copy=0x7f0800b3;
+        public static int icon_credit_card=0x7f08009a;
+        public static int icon_crop=0x7f08010e;
+        public static int icon_css3=0x7f080124;
+        public static int icon_cut=0x7f0800b2;
+        public static int icon_dashboard=0x7f0800d0;
+        public static int icon_desktop=0x7f0800f2;
+        public static int icon_double_angle_down=0x7f0800ed;
+        public static int icon_double_angle_left=0x7f0800ea;
+        public static int icon_double_angle_right=0x7f0800eb;
+        public static int icon_double_angle_up=0x7f0800ec;
+        public static int icon_download=0x7f08001f;
+        public static int icon_download_alt=0x7f08001e;
+        public static int icon_edit=0x7f080046;
+        public static int icon_edit_sign=0x7f080132;
+        public static int icon_eject=0x7f080053;
+        public static int icon_ellipsis_horizontal=0x7f080128;
+        public static int icon_ellipsis_vertical=0x7f080129;
+        public static int icon_envelope=0x7f080009;
+        public static int icon_envelope_alt=0x7f0800cc;
+        public static int icon_eraser=0x7f080116;
+        public static int icon_exchange=0x7f0800d8;
+        public static int icon_exclamation=0x7f080113;
+        public static int icon_exclamation_sign=0x7f08006a;
+        public static int icon_expand_alt=0x7f0800fe;
+        public static int icon_external_link=0x7f08008c;
+        public static int icon_external_link_sign=0x7f080133;
+        public static int icon_eye_close=0x7f08006f;
+        public static int icon_eye_open=0x7f08006e;
+        public static int icon_facebook=0x7f080097;
+        public static int icon_facebook_sign=0x7f080080;
+        public static int icon_facetime_video=0x7f080040;
+        public static int icon_fast_backward=0x7f08004b;
+        public static int icon_fast_forward=0x7f080051;
+        public static int icon_fighter_jet=0x7f0800e6;
+        public static int icon_file=0x7f08001b;
+        public static int icon_file_alt=0x7f0800e1;
+        public static int icon_film=0x7f08000e;
+        public static int icon_filter=0x7f0800ab;
+        public static int icon_fire=0x7f08006d;
+        public static int icon_fire_extinguisher=0x7f08011c;
+        public static int icon_flag=0x7f080027;
+        public static int icon_flag_alt=0x7f080105;
+        public static int icon_flag_checkered=0x7f080106;
+        public static int icon_folder_close=0x7f08007a;
+        public static int icon_folder_close_alt=0x7f0800fc;
+        public static int icon_folder_open=0x7f08007b;
+        public static int icon_folder_open_alt=0x7f0800fd;
+        public static int icon_font=0x7f080034;
+        public static int icon_food=0x7f0800e0;
+        public static int icon_forward=0x7f080050;
+        public static int icon_frown=0x7f080101;
+        public static int icon_fullscreen=0x7f0800ad;
+        public static int icon_gamepad=0x7f080103;
+        public static int icon_gift=0x7f08006b;
+        public static int icon_github=0x7f080098;
+        public static int icon_github_sign=0x7f08008f;
+        /**  FontAwesome Lib 
+         */
+        public static int icon_glass=0x7f080006;
+        public static int icon_globe=0x7f0800a8;
+        public static int icon_google_plus=0x7f0800c2;
+        public static int icon_google_plus_sign=0x7f0800c1;
+        public static int icon_group=0x7f0800ae;
+        public static int icon_h_sign=0x7f0800e8;
+        public static int icon_hand_down=0x7f0800a3;
+        public static int icon_hand_left=0x7f0800a1;
+        public static int icon_hand_right=0x7f0800a0;
+        public static int icon_hand_up=0x7f0800a2;
+        public static int icon_hdd=0x7f08009c;
+        public static int icon_headphones=0x7f080028;
+        public static int icon_heart=0x7f08000a;
+        public static int icon_heart_empty=0x7f080088;
+        public static int icon_home=0x7f08001a;
+        public static int icon_hospital=0x7f0800e3;
+        public static int icon_html5=0x7f080123;
+        public static int icon_inbox=0x7f080021;
+        public static int icon_indent_left=0x7f08003e;
+        public static int icon_indent_right=0x7f08003f;
+        public static int icon_info=0x7f080112;
+        public static int icon_info_sign=0x7f08005b;
+        public static int icon_italic=0x7f080036;
+        public static int icon_key=0x7f080082;
+        public static int icon_keyboard=0x7f080104;
+        public static int icon_laptop=0x7f0800f3;
+        public static int icon_leaf=0x7f08006c;
+        public static int icon_legal=0x7f0800cf;
+        public static int icon_lemon=0x7f080091;
+        public static int icon_level_down=0x7f080130;
+        public static int icon_level_up=0x7f08012f;
+        public static int icon_lightbulb=0x7f0800d7;
+        public static int icon_link=0x7f0800af;
+        public static int icon_linkedin=0x7f0800cd;
+        public static int icon_linkedin_sign=0x7f08008a;
+        public static int icon_list=0x7f08003d;
+        public static int icon_list_alt=0x7f080025;
+        public static int icon_list_ol=0x7f0800b9;
+        public static int icon_list_ul=0x7f0800b8;
+        public static int icon_location_arrow=0x7f08010d;
+        public static int icon_lock=0x7f080026;
+        public static int icon_magic=0x7f0800bd;
+        public static int icon_magnet=0x7f080075;
+        public static int icon_mail_reply_all=0x7f08010a;
+        public static int icon_map_marker=0x7f080043;
+        public static int icon_maxcdn=0x7f08011e;
+        public static int icon_medkit=0x7f0800e5;
+        public static int icon_meh=0x7f080102;
+        public static int icon_microphone=0x7f080118;
+        public static int icon_microphone_off=0x7f080119;
+        public static int icon_minus=0x7f080068;
+        public static int icon_minus_sign=0x7f080057;
+        public static int icon_minus_sign_alt=0x7f08012d;
+        public static int icon_mobile_phone=0x7f0800f5;
+        public static int icon_money=0x7f0800c3;
+        public static int icon_move=0x7f080049;
+        public static int icon_music=0x7f080007;
+        public static int icon_off=0x7f080016;
+        public static int icon_ok=0x7f080012;
+        public static int icon_ok_circle=0x7f08005e;
+        public static int icon_ok_sign=0x7f080059;
+        public static int icon_paper_clip=0x7f0800b4;
+        public static int icon_paste=0x7f0800d6;
+        public static int icon_pause=0x7f08004e;
+        public static int icon_pencil=0x7f080042;
+        public static int icon_phone=0x7f080092;
+        public static int icon_phone_sign=0x7f080095;
+        public static int icon_picture=0x7f080041;
+        public static int icon_pinterest=0x7f0800bf;
+        public static int icon_pinterest_sign=0x7f0800c0;
+        public static int icon_plane=0x7f080071;
+        public static int icon_play=0x7f08004d;
+        public static int icon_play_circle=0x7f080022;
+        public static int icon_play_sign=0x7f08012b;
+        public static int icon_plus=0x7f080067;
+        public static int icon_plus_sign=0x7f080056;
+        public static int icon_plus_sign_alt=0x7f0800e9;
+        public static int icon_print=0x7f080032;
+        public static int icon_pushpin=0x7f08008b;
+        public static int icon_puzzle_piece=0x7f080117;
+        public static int icon_qrcode=0x7f08002c;
+        public static int icon_question=0x7f080111;
+        public static int icon_question_sign=0x7f08005a;
+        public static int icon_quote_left=0x7f0800f7;
+        public static int icon_quote_right=0x7f0800f8;
+        public static int icon_random=0x7f080073;
+        public static int icon_refresh=0x7f080024;
+        public static int icon_remove=0x7f080013;
+        public static int icon_remove_circle=0x7f08005d;
+        public static int icon_remove_sign=0x7f080058;
+        public static int icon_reorder=0x7f0800b7;
+        public static int icon_repeat=0x7f080023;
+        public static int icon_reply=0x7f0800fb;
+        public static int icon_reply_all=0x7f080109;
+        public static int icon_resize_full=0x7f080065;
+        public static int icon_resize_horizontal=0x7f08007d;
+        public static int icon_resize_small=0x7f080066;
+        public static int icon_resize_vertical=0x7f08007c;
+        public static int icon_retweet=0x7f080078;
+        public static int icon_road=0x7f08001d;
+        public static int icon_rocket=0x7f08011d;
+        public static int icon_rss=0x7f08009b;
+        public static int icon_rss_sign=0x7f08012a;
+        public static int icon_save=0x7f0800b5;
+        public static int icon_screenshot=0x7f08005c;
+        public static int icon_search=0x7f080008;
+        public static int icon_share=0x7f080047;
+        public static int icon_share_alt=0x7f080064;
+        public static int icon_share_sign=0x7f080134;
+        public static int icon_shield=0x7f08011a;
+        public static int icon_shopping_cart=0x7f080079;
+        public static int icon_sign_blank=0x7f0800b6;
+        public static int icon_signal=0x7f080017;
+        public static int icon_signin=0x7f08008d;
+        public static int icon_signout=0x7f080089;
+        public static int icon_sitemap=0x7f0800d4;
+        public static int icon_smile=0x7f080100;
+        public static int icon_sort=0x7f0800c9;
+        public static int icon_sort_down=0x7f0800ca;
+        public static int icon_sort_up=0x7f0800cb;
+        public static int icon_spinner=0x7f0800f9;
+        public static int icon_star=0x7f08000b;
+        public static int icon_star_empty=0x7f08000c;
+        public static int icon_star_half=0x7f080087;
+        public static int icon_star_half_empty=0x7f08010c;
+        public static int icon_star_half_full=0x7f08010b;
+        public static int icon_step_backward=0x7f08004a;
+        public static int icon_step_forward=0x7f080052;
+        public static int icon_stethoscope=0x7f0800dc;
+        public static int icon_stop=0x7f08004f;
+        public static int icon_strikethrough=0x7f0800ba;
+        public static int icon_subscript=0x7f080115;
+        public static int icon_suitcase=0x7f0800dd;
+        public static int icon_superscript=0x7f080114;
+        public static int icon_table=0x7f0800bc;
+        public static int icon_tablet=0x7f0800f4;
+        public static int icon_tag=0x7f08002e;
+        public static int icon_tags=0x7f08002f;
+        public static int icon_tasks=0x7f0800aa;
+        public static int icon_terminal=0x7f080107;
+        public static int icon_text_height=0x7f080037;
+        public static int icon_text_width=0x7f080038;
+        public static int icon_th=0x7f080010;
+        public static int icon_th_large=0x7f08000f;
+        public static int icon_th_list=0x7f080011;
+        public static int icon_thumbs_down=0x7f080086;
+        public static int icon_thumbs_up=0x7f080085;
+        public static int icon_ticket=0x7f08012c;
+        public static int icon_time=0x7f08001c;
+        public static int icon_tint=0x7f080045;
+        public static int icon_trash=0x7f080019;
+        public static int icon_trophy=0x7f08008e;
+        public static int icon_truck=0x7f0800be;
+        public static int icon_twitter=0x7f080096;
+        public static int icon_twitter_sign=0x7f08007f;
+        public static int icon_umbrella=0x7f0800d5;
+        public static int icon_underline=0x7f0800bb;
+        public static int icon_undo=0x7f0800ce;
+        public static int icon_unlink=0x7f080110;
+        public static int icon_unlock=0x7f080099;
+        public static int icon_unlock_alt=0x7f080126;
+        public static int icon_upload=0x7f080020;
+        public static int icon_upload_alt=0x7f080090;
+        public static int icon_user=0x7f08000d;
+        public static int icon_user_md=0x7f0800db;
+        public static int icon_volume_down=0x7f08002a;
+        public static int icon_volume_off=0x7f080029;
+        public static int icon_volume_up=0x7f08002b;
+        public static int icon_warning_sign=0x7f080070;
+        public static int icon_wrench=0x7f0800a9;
+        public static int icon_zoom_in=0x7f080014;
+        public static int icon_zoom_out=0x7f080015;
+        public static int no_network_connection_toast=0x7f080005;
+        public static int switch_off=0x7f080004;
+        public static int switch_on=0x7f080003;
     }
     public static final class style {
         /** 
@@ -41,22 +1122,1644 @@ public final class R {
             res/values-vXX/styles.xml, while customizations related to
             backward-compatibility can go here.
         
-
-        Base application theme for API 11+. This theme completely replaces
-        AppBaseTheme from res/values/styles.xml on API 11+ devices.
-    
- API 11 theme customizations can go here. 
-
-        Base application theme for API 14+. This theme completely replaces
-        AppBaseTheme from BOTH res/values/styles.xml and
-        res/values-v11/styles.xml on API 14+ devices.
-    
- API 14 theme customizations can go here. 
          */
-        public static int AppBaseTheme=0x7f060000;
+        public static int AppBaseTheme=0x7f090000;
         /**  Application theme. 
  All customizations that are NOT specific to a particular API-level can go here. 
          */
-        public static int AppTheme=0x7f060001;
+        public static int AppTheme=0x7f090001;
+        /**  设置dialog弹出，退出动画 
+         */
+        public static int DialogAnimationStyle=0x7f090002;
+        public static int DialogBaseStyle=0x7f090003;
+        public static int Preference_SwitchPreference=0x7f090006;
+        public static int SlidingPanelLayout=0x7f090008;
+        public static int SwipeBackLayout=0x7f090007;
+        public static int TextAppearance_TabPageIndicator=0x7f09000c;
+        public static int Theme_PageIndicatorDefaults=0x7f090009;
+        public static int Widget=0x7f09000a;
+        public static int Widget_Holo_CompoundButton_Switch=0x7f090004;
+        public static int Widget_Holo_Light_CompoundButton_Switch=0x7f090005;
+        public static int Widget_IconPageIndicator=0x7f09000d;
+        public static int Widget_TabPageIndicator=0x7f09000b;
     }
+    public static final class styleable {
+        /**  Android 
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #Android_android_textColor android:textColor}</code></td><td> Text color.</td></tr>
+           <tr><td><code>{@link #Android_android_textColorHighlight android:textColorHighlight}</code></td><td> Color of the text selection highlight.</td></tr>
+           <tr><td><code>{@link #Android_android_textColorHint android:textColorHint}</code></td><td> Color of the hint text.</td></tr>
+           <tr><td><code>{@link #Android_android_textColorLink android:textColorLink}</code></td><td> Color of the links.</td></tr>
+           <tr><td><code>{@link #Android_android_textSize android:textSize}</code></td><td> Size of the text.</td></tr>
+           <tr><td><code>{@link #Android_android_textStyle android:textStyle}</code></td><td> Style (bold, italic, bolditalic) for the text.</td></tr>
+           <tr><td><code>{@link #Android_android_typeface android:typeface}</code></td><td> Typeface (normal, sans, serif, monospace) for the text.</td></tr>
+           </table>
+           @see #Android_android_textColor
+           @see #Android_android_textColorHighlight
+           @see #Android_android_textColorHint
+           @see #Android_android_textColorLink
+           @see #Android_android_textSize
+           @see #Android_android_textStyle
+           @see #Android_android_typeface
+         */
+        public static final int[] Android = {
+            0x01010095, 0x01010096, 0x01010097, 0x01010098,
+            0x01010099, 0x0101009a, 0x0101009b
+        };
+        /**
+          <p>
+          @attr description
+           Text color. 
+          <p>This corresponds to the global attribute
+          resource symbol {@link android.R.attr#textColor}.
+          @attr name android:textColor
+        */
+        public static final int Android_android_textColor = 3;
+        /**
+          <p>
+          @attr description
+           Color of the text selection highlight. 
+          <p>This corresponds to the global attribute
+          resource symbol {@link android.R.attr#textColorHighlight}.
+          @attr name android:textColorHighlight
+        */
+        public static final int Android_android_textColorHighlight = 4;
+        /**
+          <p>
+          @attr description
+           Color of the hint text. 
+          <p>This corresponds to the global attribute
+          resource symbol {@link android.R.attr#textColorHint}.
+          @attr name android:textColorHint
+        */
+        public static final int Android_android_textColorHint = 5;
+        /**
+          <p>
+          @attr description
+           Color of the links. 
+          <p>This corresponds to the global attribute
+          resource symbol {@link android.R.attr#textColorLink}.
+          @attr name android:textColorLink
+        */
+        public static final int Android_android_textColorLink = 6;
+        /**
+          <p>
+          @attr description
+           Size of the text. Recommended dimension type for text is "sp" for scaled-pixels (example: 15sp). 
+          <p>This corresponds to the global attribute
+          resource symbol {@link android.R.attr#textSize}.
+          @attr name android:textSize
+        */
+        public static final int Android_android_textSize = 0;
+        /**
+          <p>
+          @attr description
+           Style (bold, italic, bolditalic) for the text. 
+          <p>This corresponds to the global attribute
+          resource symbol {@link android.R.attr#textStyle}.
+          @attr name android:textStyle
+        */
+        public static final int Android_android_textStyle = 2;
+        /**
+          <p>
+          @attr description
+           Typeface (normal, sans, serif, monospace) for the text. 
+          <p>This corresponds to the global attribute
+          resource symbol {@link android.R.attr#typeface}.
+          @attr name android:typeface
+        */
+        public static final int Android_android_typeface = 1;
+        /**  CalendarView 
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #CalendarView_date_format org.mrchen.commlib:date_format}</code></td><td></td></tr>
+           </table>
+           @see #CalendarView_date_format
+         */
+        public static final int[] CalendarView = {
+            0x7f010002
+        };
+        /**
+          <p>This symbol is the offset where the {@link org.mrchen.commlib.R.attr#date_format}
+          attribute's value can be found in the {@link #CalendarView} array.
+
+
+          <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name org.mrchen.commlib:date_format
+        */
+        public static final int CalendarView_date_format = 0;
+        /** Attributes that can be used with a CirclePageIndicator.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #CirclePageIndicator_android_background android:background}</code></td><td> View background </td></tr>
+           <tr><td><code>{@link #CirclePageIndicator_android_orientation android:orientation}</code></td><td> Orientation of the indicator.</td></tr>
+           <tr><td><code>{@link #CirclePageIndicator_centered org.mrchen.commlib:centered}</code></td><td> Whether or not the indicators should be centered.</td></tr>
+           <tr><td><code>{@link #CirclePageIndicator_fillColor org.mrchen.commlib:fillColor}</code></td><td> Color of the filled circle that represents the current page.</td></tr>
+           <tr><td><code>{@link #CirclePageIndicator_pageColor org.mrchen.commlib:pageColor}</code></td><td> Color of the filled circles that represents pages.</td></tr>
+           <tr><td><code>{@link #CirclePageIndicator_radius org.mrchen.commlib:radius}</code></td><td> Radius of the circles.</td></tr>
+           <tr><td><code>{@link #CirclePageIndicator_snap org.mrchen.commlib:snap}</code></td><td> Whether or not the selected indicator snaps to the circles.</td></tr>
+           <tr><td><code>{@link #CirclePageIndicator_strokeColor org.mrchen.commlib:strokeColor}</code></td><td> Color of the open circles.</td></tr>
+           <tr><td><code>{@link #CirclePageIndicator_strokeWidth org.mrchen.commlib:strokeWidth}</code></td><td> Width of the stroke used to draw the circles.</td></tr>
+           </table>
+           @see #CirclePageIndicator_android_background
+           @see #CirclePageIndicator_android_orientation
+           @see #CirclePageIndicator_centered
+           @see #CirclePageIndicator_fillColor
+           @see #CirclePageIndicator_pageColor
+           @see #CirclePageIndicator_radius
+           @see #CirclePageIndicator_snap
+           @see #CirclePageIndicator_strokeColor
+           @see #CirclePageIndicator_strokeWidth
+         */
+        public static final int[] CirclePageIndicator = {
+            0x010100c4, 0x010100d4, 0x7f010030, 0x7f010032,
+            0x7f010034, 0x7f010035, 0x7f010036, 0x7f010037,
+            0x7f010038
+        };
+        /**
+          <p>
+          @attr description
+           View background 
+          <p>This corresponds to the global attribute
+          resource symbol {@link android.R.attr#background}.
+          @attr name android:background
+        */
+        public static final int CirclePageIndicator_android_background = 1;
+        /**
+          <p>
+          @attr description
+           Orientation of the indicator. 
+          <p>This corresponds to the global attribute
+          resource symbol {@link android.R.attr#orientation}.
+          @attr name android:orientation
+        */
+        public static final int CirclePageIndicator_android_orientation = 0;
+        /**
+          <p>
+          @attr description
+           Whether or not the indicators should be centered. 
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name org.mrchen.commlib:centered
+        */
+        public static final int CirclePageIndicator_centered = 2;
+        /**
+          <p>
+          @attr description
+           Color of the filled circle that represents the current page. 
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name org.mrchen.commlib:fillColor
+        */
+        public static final int CirclePageIndicator_fillColor = 4;
+        /**
+          <p>
+          @attr description
+           Color of the filled circles that represents pages. 
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name org.mrchen.commlib:pageColor
+        */
+        public static final int CirclePageIndicator_pageColor = 5;
+        /**
+          <p>
+          @attr description
+           Radius of the circles. This is also the spacing between circles. 
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name org.mrchen.commlib:radius
+        */
+        public static final int CirclePageIndicator_radius = 6;
+        /**
+          <p>
+          @attr description
+           Whether or not the selected indicator snaps to the circles. 
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name org.mrchen.commlib:snap
+        */
+        public static final int CirclePageIndicator_snap = 7;
+        /**
+          <p>
+          @attr description
+           Color of the open circles. 
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name org.mrchen.commlib:strokeColor
+        */
+        public static final int CirclePageIndicator_strokeColor = 8;
+        /**
+          <p>
+          @attr description
+           Width of the stroke used to draw the circles. 
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name org.mrchen.commlib:strokeWidth
+        */
+        public static final int CirclePageIndicator_strokeWidth = 3;
+        /** Attributes that can be used with a LinePageIndicator.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #LinePageIndicator_android_background android:background}</code></td><td> View background </td></tr>
+           <tr><td><code>{@link #LinePageIndicator_centered org.mrchen.commlib:centered}</code></td><td> Whether or not the indicators should be centered.</td></tr>
+           <tr><td><code>{@link #LinePageIndicator_gapWidth org.mrchen.commlib:gapWidth}</code></td><td> Width of the gap between each indicator line.</td></tr>
+           <tr><td><code>{@link #LinePageIndicator_lineWidth org.mrchen.commlib:lineWidth}</code></td><td> Width of each indicator line.</td></tr>
+           <tr><td><code>{@link #LinePageIndicator_selectedColor org.mrchen.commlib:selectedColor}</code></td><td> Color of the selected line that represents the current page.</td></tr>
+           <tr><td><code>{@link #LinePageIndicator_strokeWidth org.mrchen.commlib:strokeWidth}</code></td><td> Width of each indicator line's stroke.</td></tr>
+           <tr><td><code>{@link #LinePageIndicator_unselectedColor org.mrchen.commlib:unselectedColor}</code></td><td> Color of the unselected lines that represent the pages.</td></tr>
+           </table>
+           @see #LinePageIndicator_android_background
+           @see #LinePageIndicator_centered
+           @see #LinePageIndicator_gapWidth
+           @see #LinePageIndicator_lineWidth
+           @see #LinePageIndicator_selectedColor
+           @see #LinePageIndicator_strokeWidth
+           @see #LinePageIndicator_unselectedColor
+         */
+        public static final int[] LinePageIndicator = {
+            0x010100d4, 0x7f010030, 0x7f010031, 0x7f010032,
+            0x7f010033, 0x7f010039, 0x7f01003a
+        };
+        /**
+          <p>
+          @attr description
+           View background 
+          <p>This corresponds to the global attribute
+          resource symbol {@link android.R.attr#background}.
+          @attr name android:background
+        */
+        public static final int LinePageIndicator_android_background = 0;
+        /**
+          <p>
+          @attr description
+           Whether or not the indicators should be centered. 
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name org.mrchen.commlib:centered
+        */
+        public static final int LinePageIndicator_centered = 1;
+        /**
+          <p>
+          @attr description
+           Width of the gap between each indicator line. 
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name org.mrchen.commlib:gapWidth
+        */
+        public static final int LinePageIndicator_gapWidth = 6;
+        /**
+          <p>
+          @attr description
+           Width of each indicator line. 
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name org.mrchen.commlib:lineWidth
+        */
+        public static final int LinePageIndicator_lineWidth = 5;
+        /**
+          <p>
+          @attr description
+           Color of the selected line that represents the current page. 
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name org.mrchen.commlib:selectedColor
+        */
+        public static final int LinePageIndicator_selectedColor = 2;
+        /**
+          <p>
+          @attr description
+           Width of each indicator line's stroke. 
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name org.mrchen.commlib:strokeWidth
+        */
+        public static final int LinePageIndicator_strokeWidth = 3;
+        /**
+          <p>
+          @attr description
+           Color of the unselected lines that represent the pages. 
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name org.mrchen.commlib:unselectedColor
+        */
+        public static final int LinePageIndicator_unselectedColor = 4;
+        /**  PullDoorView 
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #PullDoorView_effect_weight org.mrchen.commlib:effect_weight}</code></td><td></td></tr>
+           <tr><td><code>{@link #PullDoorView_pull_direction org.mrchen.commlib:pull_direction}</code></td><td></td></tr>
+           </table>
+           @see #PullDoorView_effect_weight
+           @see #PullDoorView_pull_direction
+         */
+        public static final int[] PullDoorView = {
+            0x7f010000, 0x7f010001
+        };
+        /**
+          <p>This symbol is the offset where the {@link org.mrchen.commlib.R.attr#effect_weight}
+          attribute's value can be found in the {@link #PullDoorView} array.
+
+
+          <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name org.mrchen.commlib:effect_weight
+        */
+        public static final int PullDoorView_effect_weight = 1;
+        /**
+          <p>This symbol is the offset where the {@link org.mrchen.commlib.R.attr#pull_direction}
+          attribute's value can be found in the {@link #PullDoorView} array.
+
+
+          <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>left</code></td><td>0</td><td></td></tr>
+<tr><td><code>right</code></td><td>1</td><td></td></tr>
+<tr><td><code>top</code></td><td>2</td><td></td></tr>
+<tr><td><code>bottom</code></td><td>3</td><td></td></tr>
+</table>
+          @attr name org.mrchen.commlib:pull_direction
+        */
+        public static final int PullDoorView_pull_direction = 0;
+        /**  SlidingMenu 
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #SlidingMenu_behindOffset org.mrchen.commlib:behindOffset}</code></td><td></td></tr>
+           <tr><td><code>{@link #SlidingMenu_behindScrollScale org.mrchen.commlib:behindScrollScale}</code></td><td></td></tr>
+           <tr><td><code>{@link #SlidingMenu_behindWidth org.mrchen.commlib:behindWidth}</code></td><td></td></tr>
+           <tr><td><code>{@link #SlidingMenu_fadeDegree org.mrchen.commlib:fadeDegree}</code></td><td></td></tr>
+           <tr><td><code>{@link #SlidingMenu_fadeEnabled org.mrchen.commlib:fadeEnabled}</code></td><td></td></tr>
+           <tr><td><code>{@link #SlidingMenu_mode org.mrchen.commlib:mode}</code></td><td></td></tr>
+           <tr><td><code>{@link #SlidingMenu_selectorDrawable org.mrchen.commlib:selectorDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #SlidingMenu_selectorEnabled org.mrchen.commlib:selectorEnabled}</code></td><td></td></tr>
+           <tr><td><code>{@link #SlidingMenu_shadowDrawable org.mrchen.commlib:shadowDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #SlidingMenu_shadowWidth org.mrchen.commlib:shadowWidth}</code></td><td></td></tr>
+           <tr><td><code>{@link #SlidingMenu_touchModeAbove org.mrchen.commlib:touchModeAbove}</code></td><td></td></tr>
+           <tr><td><code>{@link #SlidingMenu_touchModeBehind org.mrchen.commlib:touchModeBehind}</code></td><td></td></tr>
+           <tr><td><code>{@link #SlidingMenu_viewAbove org.mrchen.commlib:viewAbove}</code></td><td></td></tr>
+           <tr><td><code>{@link #SlidingMenu_viewBehind org.mrchen.commlib:viewBehind}</code></td><td></td></tr>
+           </table>
+           @see #SlidingMenu_behindOffset
+           @see #SlidingMenu_behindScrollScale
+           @see #SlidingMenu_behindWidth
+           @see #SlidingMenu_fadeDegree
+           @see #SlidingMenu_fadeEnabled
+           @see #SlidingMenu_mode
+           @see #SlidingMenu_selectorDrawable
+           @see #SlidingMenu_selectorEnabled
+           @see #SlidingMenu_shadowDrawable
+           @see #SlidingMenu_shadowWidth
+           @see #SlidingMenu_touchModeAbove
+           @see #SlidingMenu_touchModeBehind
+           @see #SlidingMenu_viewAbove
+           @see #SlidingMenu_viewBehind
+         */
+        public static final int[] SlidingMenu = {
+            0x7f010003, 0x7f010004, 0x7f010005, 0x7f010006,
+            0x7f010007, 0x7f010008, 0x7f010009, 0x7f01000a,
+            0x7f01000b, 0x7f01000c, 0x7f01000d, 0x7f01000e,
+            0x7f01000f, 0x7f010010
+        };
+        /**
+          <p>This symbol is the offset where the {@link org.mrchen.commlib.R.attr#behindOffset}
+          attribute's value can be found in the {@link #SlidingMenu} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name org.mrchen.commlib:behindOffset
+        */
+        public static final int SlidingMenu_behindOffset = 3;
+        /**
+          <p>This symbol is the offset where the {@link org.mrchen.commlib.R.attr#behindScrollScale}
+          attribute's value can be found in the {@link #SlidingMenu} array.
+
+
+          <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name org.mrchen.commlib:behindScrollScale
+        */
+        public static final int SlidingMenu_behindScrollScale = 5;
+        /**
+          <p>This symbol is the offset where the {@link org.mrchen.commlib.R.attr#behindWidth}
+          attribute's value can be found in the {@link #SlidingMenu} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name org.mrchen.commlib:behindWidth
+        */
+        public static final int SlidingMenu_behindWidth = 4;
+        /**
+          <p>This symbol is the offset where the {@link org.mrchen.commlib.R.attr#fadeDegree}
+          attribute's value can be found in the {@link #SlidingMenu} array.
+
+
+          <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name org.mrchen.commlib:fadeDegree
+        */
+        public static final int SlidingMenu_fadeDegree = 11;
+        /**
+          <p>This symbol is the offset where the {@link org.mrchen.commlib.R.attr#fadeEnabled}
+          attribute's value can be found in the {@link #SlidingMenu} array.
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name org.mrchen.commlib:fadeEnabled
+        */
+        public static final int SlidingMenu_fadeEnabled = 10;
+        /**
+          <p>This symbol is the offset where the {@link org.mrchen.commlib.R.attr#mode}
+          attribute's value can be found in the {@link #SlidingMenu} array.
+
+
+          <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>left</code></td><td>0</td><td></td></tr>
+<tr><td><code>right</code></td><td>1</td><td></td></tr>
+</table>
+          @attr name org.mrchen.commlib:mode
+        */
+        public static final int SlidingMenu_mode = 0;
+        /**
+          <p>This symbol is the offset where the {@link org.mrchen.commlib.R.attr#selectorDrawable}
+          attribute's value can be found in the {@link #SlidingMenu} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name org.mrchen.commlib:selectorDrawable
+        */
+        public static final int SlidingMenu_selectorDrawable = 13;
+        /**
+          <p>This symbol is the offset where the {@link org.mrchen.commlib.R.attr#selectorEnabled}
+          attribute's value can be found in the {@link #SlidingMenu} array.
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name org.mrchen.commlib:selectorEnabled
+        */
+        public static final int SlidingMenu_selectorEnabled = 12;
+        /**
+          <p>This symbol is the offset where the {@link org.mrchen.commlib.R.attr#shadowDrawable}
+          attribute's value can be found in the {@link #SlidingMenu} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name org.mrchen.commlib:shadowDrawable
+        */
+        public static final int SlidingMenu_shadowDrawable = 8;
+        /**
+          <p>This symbol is the offset where the {@link org.mrchen.commlib.R.attr#shadowWidth}
+          attribute's value can be found in the {@link #SlidingMenu} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name org.mrchen.commlib:shadowWidth
+        */
+        public static final int SlidingMenu_shadowWidth = 9;
+        /**
+          <p>This symbol is the offset where the {@link org.mrchen.commlib.R.attr#touchModeAbove}
+          attribute's value can be found in the {@link #SlidingMenu} array.
+
+
+          <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>margin</code></td><td>0</td><td></td></tr>
+<tr><td><code>fullscreen</code></td><td>1</td><td></td></tr>
+</table>
+          @attr name org.mrchen.commlib:touchModeAbove
+        */
+        public static final int SlidingMenu_touchModeAbove = 6;
+        /**
+          <p>This symbol is the offset where the {@link org.mrchen.commlib.R.attr#touchModeBehind}
+          attribute's value can be found in the {@link #SlidingMenu} array.
+
+
+          <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>margin</code></td><td>0</td><td></td></tr>
+<tr><td><code>fullscreen</code></td><td>1</td><td></td></tr>
+</table>
+          @attr name org.mrchen.commlib:touchModeBehind
+        */
+        public static final int SlidingMenu_touchModeBehind = 7;
+        /**
+          <p>This symbol is the offset where the {@link org.mrchen.commlib.R.attr#viewAbove}
+          attribute's value can be found in the {@link #SlidingMenu} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name org.mrchen.commlib:viewAbove
+        */
+        public static final int SlidingMenu_viewAbove = 1;
+        /**
+          <p>This symbol is the offset where the {@link org.mrchen.commlib.R.attr#viewBehind}
+          attribute's value can be found in the {@link #SlidingMenu} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name org.mrchen.commlib:viewBehind
+        */
+        public static final int SlidingMenu_viewBehind = 2;
+        /** Attributes that can be used with a SlidingPanelLayout.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #SlidingPanelLayout_panel_anchor org.mrchen.commlib:panel_anchor}</code></td><td></td></tr>
+           <tr><td><code>{@link #SlidingPanelLayout_panel_direction org.mrchen.commlib:panel_direction}</code></td><td></td></tr>
+           <tr><td><code>{@link #SlidingPanelLayout_panel_shadow org.mrchen.commlib:panel_shadow}</code></td><td></td></tr>
+           </table>
+           @see #SlidingPanelLayout_panel_anchor
+           @see #SlidingPanelLayout_panel_direction
+           @see #SlidingPanelLayout_panel_shadow
+         */
+        public static final int[] SlidingPanelLayout = {
+            0x7f010026, 0x7f010027, 0x7f010028
+        };
+        /**
+          <p>This symbol is the offset where the {@link org.mrchen.commlib.R.attr#panel_anchor}
+          attribute's value can be found in the {@link #SlidingPanelLayout} array.
+
+
+          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be a floating point value, such as "<code>1.2</code>".
+          @attr name org.mrchen.commlib:panel_anchor
+        */
+        public static final int SlidingPanelLayout_panel_anchor = 1;
+        /**
+          <p>This symbol is the offset where the {@link org.mrchen.commlib.R.attr#panel_direction}
+          attribute's value can be found in the {@link #SlidingPanelLayout} array.
+
+
+          <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>left</code></td><td>1</td><td></td></tr>
+<tr><td><code>right</code></td><td>2</td><td></td></tr>
+<tr><td><code>top</code></td><td>4</td><td></td></tr>
+<tr><td><code>bottom</code></td><td>8</td><td></td></tr>
+</table>
+          @attr name org.mrchen.commlib:panel_direction
+        */
+        public static final int SlidingPanelLayout_panel_direction = 0;
+        /**
+          <p>This symbol is the offset where the {@link org.mrchen.commlib.R.attr#panel_shadow}
+          attribute's value can be found in the {@link #SlidingPanelLayout} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name org.mrchen.commlib:panel_shadow
+        */
+        public static final int SlidingPanelLayout_panel_shadow = 2;
+        /** Attributes that can be used with a SwipeBackLayout.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #SwipeBackLayout_edge_flag org.mrchen.commlib:edge_flag}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwipeBackLayout_edge_size org.mrchen.commlib:edge_size}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwipeBackLayout_shadow_bottom org.mrchen.commlib:shadow_bottom}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwipeBackLayout_shadow_left org.mrchen.commlib:shadow_left}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwipeBackLayout_shadow_right org.mrchen.commlib:shadow_right}</code></td><td></td></tr>
+           </table>
+           @see #SwipeBackLayout_edge_flag
+           @see #SwipeBackLayout_edge_size
+           @see #SwipeBackLayout_shadow_bottom
+           @see #SwipeBackLayout_shadow_left
+           @see #SwipeBackLayout_shadow_right
+         */
+        public static final int[] SwipeBackLayout = {
+            0x7f010020, 0x7f010021, 0x7f010022, 0x7f010023,
+            0x7f010024
+        };
+        /**
+          <p>This symbol is the offset where the {@link org.mrchen.commlib.R.attr#edge_flag}
+          attribute's value can be found in the {@link #SwipeBackLayout} array.
+
+
+          <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>left</code></td><td>0</td><td></td></tr>
+<tr><td><code>right</code></td><td>1</td><td></td></tr>
+<tr><td><code>bottom</code></td><td>2</td><td></td></tr>
+<tr><td><code>all</code></td><td>3</td><td></td></tr>
+</table>
+          @attr name org.mrchen.commlib:edge_flag
+        */
+        public static final int SwipeBackLayout_edge_flag = 1;
+        /**
+          <p>This symbol is the offset where the {@link org.mrchen.commlib.R.attr#edge_size}
+          attribute's value can be found in the {@link #SwipeBackLayout} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name org.mrchen.commlib:edge_size
+        */
+        public static final int SwipeBackLayout_edge_size = 0;
+        /**
+          <p>This symbol is the offset where the {@link org.mrchen.commlib.R.attr#shadow_bottom}
+          attribute's value can be found in the {@link #SwipeBackLayout} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name org.mrchen.commlib:shadow_bottom
+        */
+        public static final int SwipeBackLayout_shadow_bottom = 4;
+        /**
+          <p>This symbol is the offset where the {@link org.mrchen.commlib.R.attr#shadow_left}
+          attribute's value can be found in the {@link #SwipeBackLayout} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name org.mrchen.commlib:shadow_left
+        */
+        public static final int SwipeBackLayout_shadow_left = 2;
+        /**
+          <p>This symbol is the offset where the {@link org.mrchen.commlib.R.attr#shadow_right}
+          attribute's value can be found in the {@link #SwipeBackLayout} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name org.mrchen.commlib:shadow_right
+        */
+        public static final int SwipeBackLayout_shadow_right = 3;
+        /**  Switch 
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #Switch_switchMinWidth org.mrchen.commlib:switchMinWidth}</code></td><td> Minimum width for the switch component </td></tr>
+           <tr><td><code>{@link #Switch_switchPadding org.mrchen.commlib:switchPadding}</code></td><td> Minimum space between the switch and caption text </td></tr>
+           <tr><td><code>{@link #Switch_switchTextAppearance org.mrchen.commlib:switchTextAppearance}</code></td><td> TextAppearance style for text displayed on the switch thumb.</td></tr>
+           <tr><td><code>{@link #Switch_textOff org.mrchen.commlib:textOff}</code></td><td> Text to use when the switch is in the unchecked/"off" state.</td></tr>
+           <tr><td><code>{@link #Switch_textOn org.mrchen.commlib:textOn}</code></td><td> Text to use when the switch is in the checked/"on" state.</td></tr>
+           <tr><td><code>{@link #Switch_thumb org.mrchen.commlib:thumb}</code></td><td> Drawable to use as the "thumb" that switches back and forth.</td></tr>
+           <tr><td><code>{@link #Switch_thumbTextPadding org.mrchen.commlib:thumbTextPadding}</code></td><td> Amount of padding on either side of text within the switch thumb.</td></tr>
+           <tr><td><code>{@link #Switch_track org.mrchen.commlib:track}</code></td><td> Drawable to use as the "track" that the switch thumb slides within.</td></tr>
+           </table>
+           @see #Switch_switchMinWidth
+           @see #Switch_switchPadding
+           @see #Switch_switchTextAppearance
+           @see #Switch_textOff
+           @see #Switch_textOn
+           @see #Switch_thumb
+           @see #Switch_thumbTextPadding
+           @see #Switch_track
+         */
+        public static final int[] Switch = {
+            0x7f010016, 0x7f010017, 0x7f010018, 0x7f010019,
+            0x7f01001a, 0x7f01001b, 0x7f01001c, 0x7f01001d
+        };
+        /**
+          <p>
+          @attr description
+           Minimum width for the switch component 
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name org.mrchen.commlib:switchMinWidth
+        */
+        public static final int Switch_switchMinWidth = 6;
+        /**
+          <p>
+          @attr description
+           Minimum space between the switch and caption text 
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name org.mrchen.commlib:switchPadding
+        */
+        public static final int Switch_switchPadding = 7;
+        /**
+          <p>
+          @attr description
+           TextAppearance style for text displayed on the switch thumb. 
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          <p>This is a private symbol.
+          @attr name org.mrchen.commlib:switchTextAppearance
+        */
+        public static final int Switch_switchTextAppearance = 5;
+        /**
+          <p>
+          @attr description
+           Text to use when the switch is in the unchecked/"off" state. 
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          <p>This is a private symbol.
+          @attr name org.mrchen.commlib:textOff
+        */
+        public static final int Switch_textOff = 3;
+        /**
+          <p>
+          @attr description
+           Text to use when the switch is in the checked/"on" state. 
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          <p>This is a private symbol.
+          @attr name org.mrchen.commlib:textOn
+        */
+        public static final int Switch_textOn = 2;
+        /**
+          <p>
+          @attr description
+           Drawable to use as the "thumb" that switches back and forth. 
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          <p>This is a private symbol.
+          @attr name org.mrchen.commlib:thumb
+        */
+        public static final int Switch_thumb = 0;
+        /**
+          <p>
+          @attr description
+           Amount of padding on either side of text within the switch thumb. 
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name org.mrchen.commlib:thumbTextPadding
+        */
+        public static final int Switch_thumbTextPadding = 4;
+        /**
+          <p>
+          @attr description
+           Drawable to use as the "track" that the switch thumb slides within. 
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          <p>This is a private symbol.
+          @attr name org.mrchen.commlib:track
+        */
+        public static final int Switch_track = 1;
+        /**  SwitchPreference 
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #SwitchPreference_disableDependentsState org.mrchen.commlib:disableDependentsState}</code></td><td>
+             The state (true for on, or false for off) that causes dependents to be disabled.</td></tr>
+           <tr><td><code>{@link #SwitchPreference_summaryOff org.mrchen.commlib:summaryOff}</code></td><td>
+             The summary for the Preference in a PreferenceActivity screen when the
+             SwitchPreference is unchecked.</td></tr>
+           <tr><td><code>{@link #SwitchPreference_summaryOn org.mrchen.commlib:summaryOn}</code></td><td>
+             The summary for the Preference in a PreferenceActivity screen when the
+             SwitchPreference is checked.</td></tr>
+           <tr><td><code>{@link #SwitchPreference_switchTextOff org.mrchen.commlib:switchTextOff}</code></td><td>
+             The text used on the switch itself when in the "off" state.</td></tr>
+           <tr><td><code>{@link #SwitchPreference_switchTextOn org.mrchen.commlib:switchTextOn}</code></td><td>
+             The text used on the switch itself when in the "on" state.</td></tr>
+           </table>
+           @see #SwitchPreference_disableDependentsState
+           @see #SwitchPreference_summaryOff
+           @see #SwitchPreference_summaryOn
+           @see #SwitchPreference_switchTextOff
+           @see #SwitchPreference_switchTextOn
+         */
+        public static final int[] SwitchPreference = {
+            0x7f010011, 0x7f010012, 0x7f010013, 0x7f010014,
+            0x7f010015
+        };
+        /**
+          <p>
+          @attr description
+          
+             The state (true for on, or false for off) that causes dependents to be disabled. By default,
+             dependents will be disabled when this is unchecked, so the value of this preference is false.
+        
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name org.mrchen.commlib:disableDependentsState
+        */
+        public static final int SwitchPreference_disableDependentsState = 4;
+        /**
+          <p>
+          @attr description
+          
+             The summary for the Preference in a PreferenceActivity screen when the
+             SwitchPreference is unchecked. If separate on/off summaries are not
+             needed, the summary attribute can be used instead.
+        
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          <p>This is a private symbol.
+          @attr name org.mrchen.commlib:summaryOff
+        */
+        public static final int SwitchPreference_summaryOff = 1;
+        /**
+          <p>
+          @attr description
+          
+             The summary for the Preference in a PreferenceActivity screen when the
+             SwitchPreference is checked. If separate on/off summaries are not
+             needed, the summary attribute can be used instead.
+        
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          <p>This is a private symbol.
+          @attr name org.mrchen.commlib:summaryOn
+        */
+        public static final int SwitchPreference_summaryOn = 0;
+        /**
+          <p>
+          @attr description
+          
+             The text used on the switch itself when in the "off" state.
+             This should be a very SHORT string, as it appears in a small space.
+        
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          <p>This is a private symbol.
+          @attr name org.mrchen.commlib:switchTextOff
+        */
+        public static final int SwitchPreference_switchTextOff = 3;
+        /**
+          <p>
+          @attr description
+          
+             The text used on the switch itself when in the "on" state.
+             This should be a very SHORT string, as it appears in a small space.
+        
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          <p>This is a private symbol.
+          @attr name org.mrchen.commlib:switchTextOn
+        */
+        public static final int SwitchPreference_switchTextOn = 2;
+        /**  Theme 
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #Theme_switchPreferenceStyle org.mrchen.commlib:switchPreferenceStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_switchStyle org.mrchen.commlib:switchStyle}</code></td><td></td></tr>
+           </table>
+           @see #Theme_switchPreferenceStyle
+           @see #Theme_switchStyle
+         */
+        public static final int[] Theme = {
+            0x7f01001e, 0x7f01001f
+        };
+        /**
+          <p>This symbol is the offset where the {@link org.mrchen.commlib.R.attr#switchPreferenceStyle}
+          attribute's value can be found in the {@link #Theme} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name org.mrchen.commlib:switchPreferenceStyle
+        */
+        public static final int Theme_switchPreferenceStyle = 1;
+        /**
+          <p>This symbol is the offset where the {@link org.mrchen.commlib.R.attr#switchStyle}
+          attribute's value can be found in the {@link #Theme} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name org.mrchen.commlib:switchStyle
+        */
+        public static final int Theme_switchStyle = 0;
+        /** Attributes that can be used with a TitlePageIndicator.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #TitlePageIndicator_android_background android:background}</code></td><td> View background </td></tr>
+           <tr><td><code>{@link #TitlePageIndicator_android_textColor android:textColor}</code></td><td> Color of regular titles.</td></tr>
+           <tr><td><code>{@link #TitlePageIndicator_android_textSize android:textSize}</code></td><td> Size of title text.</td></tr>
+           <tr><td><code>{@link #TitlePageIndicator_clipPadding org.mrchen.commlib:clipPadding}</code></td><td> Screen edge padding.</td></tr>
+           <tr><td><code>{@link #TitlePageIndicator_footerColor org.mrchen.commlib:footerColor}</code></td><td> Color of the footer line and indicator.</td></tr>
+           <tr><td><code>{@link #TitlePageIndicator_footerIndicatorHeight org.mrchen.commlib:footerIndicatorHeight}</code></td><td> Height of the indicator above the footer line.</td></tr>
+           <tr><td><code>{@link #TitlePageIndicator_footerIndicatorStyle org.mrchen.commlib:footerIndicatorStyle}</code></td><td> Style of the indicator.</td></tr>
+           <tr><td><code>{@link #TitlePageIndicator_footerIndicatorUnderlinePadding org.mrchen.commlib:footerIndicatorUnderlinePadding}</code></td><td> Left and right padding of the underline indicator.</td></tr>
+           <tr><td><code>{@link #TitlePageIndicator_footerLineHeight org.mrchen.commlib:footerLineHeight}</code></td><td> Height of the footer line.</td></tr>
+           <tr><td><code>{@link #TitlePageIndicator_footerPadding org.mrchen.commlib:footerPadding}</code></td><td> Padding between the bottom of the title and the footer.</td></tr>
+           <tr><td><code>{@link #TitlePageIndicator_linePosition org.mrchen.commlib:linePosition}</code></td><td> Position of the line.</td></tr>
+           <tr><td><code>{@link #TitlePageIndicator_selectedBold org.mrchen.commlib:selectedBold}</code></td><td> Whether or not the selected item is displayed as bold.</td></tr>
+           <tr><td><code>{@link #TitlePageIndicator_selectedColor org.mrchen.commlib:selectedColor}</code></td><td> Color of the selected title.</td></tr>
+           <tr><td><code>{@link #TitlePageIndicator_titlePadding org.mrchen.commlib:titlePadding}</code></td><td> Padding between titles when bumping into each other.</td></tr>
+           <tr><td><code>{@link #TitlePageIndicator_topPadding org.mrchen.commlib:topPadding}</code></td><td> Padding between titles and the top of the View.</td></tr>
+           </table>
+           @see #TitlePageIndicator_android_background
+           @see #TitlePageIndicator_android_textColor
+           @see #TitlePageIndicator_android_textSize
+           @see #TitlePageIndicator_clipPadding
+           @see #TitlePageIndicator_footerColor
+           @see #TitlePageIndicator_footerIndicatorHeight
+           @see #TitlePageIndicator_footerIndicatorStyle
+           @see #TitlePageIndicator_footerIndicatorUnderlinePadding
+           @see #TitlePageIndicator_footerLineHeight
+           @see #TitlePageIndicator_footerPadding
+           @see #TitlePageIndicator_linePosition
+           @see #TitlePageIndicator_selectedBold
+           @see #TitlePageIndicator_selectedColor
+           @see #TitlePageIndicator_titlePadding
+           @see #TitlePageIndicator_topPadding
+         */
+        public static final int[] TitlePageIndicator = {
+            0x01010095, 0x01010098, 0x010100d4, 0x7f010031,
+            0x7f01003b, 0x7f01003c, 0x7f01003d, 0x7f01003e,
+            0x7f01003f, 0x7f010040, 0x7f010041, 0x7f010042,
+            0x7f010043, 0x7f010044, 0x7f010045
+        };
+        /**
+          <p>
+          @attr description
+           View background 
+          <p>This corresponds to the global attribute
+          resource symbol {@link android.R.attr#background}.
+          @attr name android:background
+        */
+        public static final int TitlePageIndicator_android_background = 2;
+        /**
+          <p>
+          @attr description
+           Color of regular titles. 
+          <p>This corresponds to the global attribute
+          resource symbol {@link android.R.attr#textColor}.
+          @attr name android:textColor
+        */
+        public static final int TitlePageIndicator_android_textColor = 1;
+        /**
+          <p>
+          @attr description
+           Size of title text. 
+          <p>This corresponds to the global attribute
+          resource symbol {@link android.R.attr#textSize}.
+          @attr name android:textSize
+        */
+        public static final int TitlePageIndicator_android_textSize = 0;
+        /**
+          <p>
+          @attr description
+           Screen edge padding. 
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name org.mrchen.commlib:clipPadding
+        */
+        public static final int TitlePageIndicator_clipPadding = 4;
+        /**
+          <p>
+          @attr description
+           Color of the footer line and indicator. 
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name org.mrchen.commlib:footerColor
+        */
+        public static final int TitlePageIndicator_footerColor = 5;
+        /**
+          <p>
+          @attr description
+           Height of the indicator above the footer line. 
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name org.mrchen.commlib:footerIndicatorHeight
+        */
+        public static final int TitlePageIndicator_footerIndicatorHeight = 8;
+        /**
+          <p>
+          @attr description
+           Style of the indicator. Default is triangle. 
+
+
+          <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>none</code></td><td>0</td><td></td></tr>
+<tr><td><code>triangle</code></td><td>1</td><td></td></tr>
+<tr><td><code>underline</code></td><td>2</td><td></td></tr>
+</table>
+          <p>This is a private symbol.
+          @attr name org.mrchen.commlib:footerIndicatorStyle
+        */
+        public static final int TitlePageIndicator_footerIndicatorStyle = 7;
+        /**
+          <p>
+          @attr description
+           Left and right padding of the underline indicator. 
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name org.mrchen.commlib:footerIndicatorUnderlinePadding
+        */
+        public static final int TitlePageIndicator_footerIndicatorUnderlinePadding = 9;
+        /**
+          <p>
+          @attr description
+           Height of the footer line. 
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name org.mrchen.commlib:footerLineHeight
+        */
+        public static final int TitlePageIndicator_footerLineHeight = 6;
+        /**
+          <p>
+          @attr description
+           Padding between the bottom of the title and the footer. 
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name org.mrchen.commlib:footerPadding
+        */
+        public static final int TitlePageIndicator_footerPadding = 10;
+        /**
+          <p>
+          @attr description
+           Position of the line. 
+
+
+          <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>bottom</code></td><td>0</td><td></td></tr>
+<tr><td><code>top</code></td><td>1</td><td></td></tr>
+</table>
+          <p>This is a private symbol.
+          @attr name org.mrchen.commlib:linePosition
+        */
+        public static final int TitlePageIndicator_linePosition = 11;
+        /**
+          <p>
+          @attr description
+           Whether or not the selected item is displayed as bold. 
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name org.mrchen.commlib:selectedBold
+        */
+        public static final int TitlePageIndicator_selectedBold = 12;
+        /**
+          <p>
+          @attr description
+           Color of the selected title. 
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name org.mrchen.commlib:selectedColor
+        */
+        public static final int TitlePageIndicator_selectedColor = 3;
+        /**
+          <p>
+          @attr description
+           Padding between titles when bumping into each other. 
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name org.mrchen.commlib:titlePadding
+        */
+        public static final int TitlePageIndicator_titlePadding = 13;
+        /**
+          <p>
+          @attr description
+           Padding between titles and the top of the View. 
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name org.mrchen.commlib:topPadding
+        */
+        public static final int TitlePageIndicator_topPadding = 14;
+        /** Attributes that can be used with a UnderlinePageIndicator.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #UnderlinePageIndicator_android_background android:background}</code></td><td> View background </td></tr>
+           <tr><td><code>{@link #UnderlinePageIndicator_fadeDelay org.mrchen.commlib:fadeDelay}</code></td><td> Length of the delay to fade the indicator.</td></tr>
+           <tr><td><code>{@link #UnderlinePageIndicator_fadeLength org.mrchen.commlib:fadeLength}</code></td><td> Length of the indicator fade to transparent.</td></tr>
+           <tr><td><code>{@link #UnderlinePageIndicator_fades org.mrchen.commlib:fades}</code></td><td> Whether or not the selected indicator fades.</td></tr>
+           <tr><td><code>{@link #UnderlinePageIndicator_selectedColor org.mrchen.commlib:selectedColor}</code></td><td> Color of the selected line that represents the current page.</td></tr>
+           </table>
+           @see #UnderlinePageIndicator_android_background
+           @see #UnderlinePageIndicator_fadeDelay
+           @see #UnderlinePageIndicator_fadeLength
+           @see #UnderlinePageIndicator_fades
+           @see #UnderlinePageIndicator_selectedColor
+         */
+        public static final int[] UnderlinePageIndicator = {
+            0x010100d4, 0x7f010031, 0x7f010046, 0x7f010047,
+            0x7f010048
+        };
+        /**
+          <p>
+          @attr description
+           View background 
+          <p>This corresponds to the global attribute
+          resource symbol {@link android.R.attr#background}.
+          @attr name android:background
+        */
+        public static final int UnderlinePageIndicator_android_background = 0;
+        /**
+          <p>
+          @attr description
+           Length of the delay to fade the indicator. 
+
+
+          <p>Must be an integer value, such as "<code>100</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name org.mrchen.commlib:fadeDelay
+        */
+        public static final int UnderlinePageIndicator_fadeDelay = 3;
+        /**
+          <p>
+          @attr description
+           Length of the indicator fade to transparent. 
+
+
+          <p>Must be an integer value, such as "<code>100</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name org.mrchen.commlib:fadeLength
+        */
+        public static final int UnderlinePageIndicator_fadeLength = 4;
+        /**
+          <p>
+          @attr description
+           Whether or not the selected indicator fades. 
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name org.mrchen.commlib:fades
+        */
+        public static final int UnderlinePageIndicator_fades = 2;
+        /**
+          <p>
+          @attr description
+           Color of the selected line that represents the current page. 
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name org.mrchen.commlib:selectedColor
+        */
+        public static final int UnderlinePageIndicator_selectedColor = 1;
+        /** Attributes that can be used with a ViewPagerIndicator.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #ViewPagerIndicator_vpiCirclePageIndicatorStyle org.mrchen.commlib:vpiCirclePageIndicatorStyle}</code></td><td> Style of the circle indicator.</td></tr>
+           <tr><td><code>{@link #ViewPagerIndicator_vpiIconPageIndicatorStyle org.mrchen.commlib:vpiIconPageIndicatorStyle}</code></td><td> Style of the icon indicator's views.</td></tr>
+           <tr><td><code>{@link #ViewPagerIndicator_vpiLinePageIndicatorStyle org.mrchen.commlib:vpiLinePageIndicatorStyle}</code></td><td> Style of the line indicator.</td></tr>
+           <tr><td><code>{@link #ViewPagerIndicator_vpiTabPageIndicatorStyle org.mrchen.commlib:vpiTabPageIndicatorStyle}</code></td><td> Style of the tab indicator's tabs.</td></tr>
+           <tr><td><code>{@link #ViewPagerIndicator_vpiTitlePageIndicatorStyle org.mrchen.commlib:vpiTitlePageIndicatorStyle}</code></td><td> Style of the title indicator.</td></tr>
+           <tr><td><code>{@link #ViewPagerIndicator_vpiUnderlinePageIndicatorStyle org.mrchen.commlib:vpiUnderlinePageIndicatorStyle}</code></td><td> Style of the underline indicator.</td></tr>
+           </table>
+           @see #ViewPagerIndicator_vpiCirclePageIndicatorStyle
+           @see #ViewPagerIndicator_vpiIconPageIndicatorStyle
+           @see #ViewPagerIndicator_vpiLinePageIndicatorStyle
+           @see #ViewPagerIndicator_vpiTabPageIndicatorStyle
+           @see #ViewPagerIndicator_vpiTitlePageIndicatorStyle
+           @see #ViewPagerIndicator_vpiUnderlinePageIndicatorStyle
+         */
+        public static final int[] ViewPagerIndicator = {
+            0x7f01002a, 0x7f01002b, 0x7f01002c, 0x7f01002d,
+            0x7f01002e, 0x7f01002f
+        };
+        /**
+          <p>
+          @attr description
+           Style of the circle indicator. 
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          <p>This is a private symbol.
+          @attr name org.mrchen.commlib:vpiCirclePageIndicatorStyle
+        */
+        public static final int ViewPagerIndicator_vpiCirclePageIndicatorStyle = 0;
+        /**
+          <p>
+          @attr description
+           Style of the icon indicator's views. 
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          <p>This is a private symbol.
+          @attr name org.mrchen.commlib:vpiIconPageIndicatorStyle
+        */
+        public static final int ViewPagerIndicator_vpiIconPageIndicatorStyle = 1;
+        /**
+          <p>
+          @attr description
+           Style of the line indicator. 
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          <p>This is a private symbol.
+          @attr name org.mrchen.commlib:vpiLinePageIndicatorStyle
+        */
+        public static final int ViewPagerIndicator_vpiLinePageIndicatorStyle = 2;
+        /**
+          <p>
+          @attr description
+           Style of the tab indicator's tabs. 
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          <p>This is a private symbol.
+          @attr name org.mrchen.commlib:vpiTabPageIndicatorStyle
+        */
+        public static final int ViewPagerIndicator_vpiTabPageIndicatorStyle = 4;
+        /**
+          <p>
+          @attr description
+           Style of the title indicator. 
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          <p>This is a private symbol.
+          @attr name org.mrchen.commlib:vpiTitlePageIndicatorStyle
+        */
+        public static final int ViewPagerIndicator_vpiTitlePageIndicatorStyle = 3;
+        /**
+          <p>
+          @attr description
+           Style of the underline indicator. 
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          <p>This is a private symbol.
+          @attr name org.mrchen.commlib:vpiUnderlinePageIndicatorStyle
+        */
+        public static final int ViewPagerIndicator_vpiUnderlinePageIndicatorStyle = 5;
+    };
 }

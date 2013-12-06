@@ -127,8 +127,10 @@ public class PropertyValueAnimation extends AbstractAnimation {
 			LayoutParams params = mTargetView.getLayoutParams();
 			if (mType == TYPE.height) {
 				params.height = mCurrSize;
+				LogHelper.d(TAG, "applySize >> height = " + mCurrSize);
 			} else if (mType == TYPE.width) {
 				params.width = mCurrSize;
+				LogHelper.d(TAG, "applySize >> width = " + mCurrSize);
 			}
 			mTargetView.setLayoutParams(params);
 		}

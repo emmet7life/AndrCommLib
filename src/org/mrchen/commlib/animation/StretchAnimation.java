@@ -7,7 +7,11 @@ import android.view.ViewGroup.LayoutParams;
 import android.view.animation.AnimationUtils;
 
 /**
- * 伸缩Animation，该Animation有特定的用法，详见Example
+ * 伸缩Animation，该Animation有特定的用法，详见Example<br>
+ * 这个类不是由本人初创的，by
+ * manymore13(blog:http://blog.csdn.net/manymore13/),我进行了一点改造，还创建了
+ * {@link PropertyValueAnimation}, {@link LayoutValueAnimation},
+ * {@link MarginValueAnimation}
  * 
  * @author chenjianli
  * 

@@ -17,4 +17,58 @@
         <!-- All customizations that are NOT specific to a particular API-level can go here. -->
     </style>
 
+    <!-- 设置dialog弹出，退出动画 -->
+    <style name="DialogAnimationStyle" mce_bogus="1" parent="@android:style/Animation.Dialog">
+        <item name="android:windowEnterAnimation">@anim/dialog_enter_anim</item>
+        <item name="android:windowExitAnimation">@anim/dialog_exit_anim</item>
+    </style>
+
+    <style name="DialogBaseStyle" parent="android:style/Theme.Dialog">
+        <item name="android:windowBackground">@drawable/bg_nothing</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+    </style>
+
+    <style name="Widget.Holo.CompoundButton.Switch" parent="android:Widget.CompoundButton">
+        <item name="track">@drawable/switch_track_holo_dark</item>
+        <item name="thumb">@drawable/switch_inner_holo_dark</item>
+        <item name="switchTextAppearance">@android:style/TextAppearance.Small</item>
+        <item name="textOn">@string/switch_on</item>
+        <item name="textOff">@string/switch_off</item>
+        <item name="thumbTextPadding">12dip</item>
+        <item name="switchMinWidth">96dip</item>
+        <item name="switchPadding">16dip</item>
+    </style>
+
+    <style name="Widget.Holo.Light.CompoundButton.Switch" parent="android:Widget.CompoundButton">
+        <item name="track">@drawable/switch_track_holo_light</item>
+        <item name="thumb">@drawable/switch_inner_holo_light</item>
+        <item name="switchTextAppearance">@android:style/TextAppearance.Small</item>
+        <item name="textOn">@string/switch_on</item>
+        <item name="textOff">@string/switch_off</item>
+        <item name="thumbTextPadding">12dip</item>
+        <item name="switchMinWidth">96dip</item>
+        <item name="switchPadding">16dip</item>
+    </style>
+
+    <style name="Preference.SwitchPreference" parent="">
+        <item name="android:layout">@layout/preference</item>
+        <item name="android:widgetLayout">@layout/preference_widget_switch</item>
+        <item name="switchTextOn">@string/switch_on</item>
+        <item name="switchTextOff">@string/switch_off</item>
+    </style>
+
+    <style name="SwipeBackLayout">
+        <item name="edge_size">50dip</item>
+        <item name="shadow_left">@drawable/shadow_left</item>
+        <item name="shadow_right">@drawable/shadow_right</item>
+        <item name="shadow_bottom">@drawable/shadow_bottom</item>
+    </style>
+
+    <style name="SlidingPanelLayout">
+        <item name="panel_direction">bottom</item>
+        <item name="panel_anchor">0.3</item>
+        <item name="panel_shadow">@drawable/bg_nothing</item>
+    </style>
+
 </resources>
