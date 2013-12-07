@@ -40,6 +40,7 @@ public class OauthActivity extends Activity {
 			mSsoHandler = mSinaWeibo.initSsoHandler(this);
 			mSsoHandler.authorize(new AuthDialogListener(), null);
 		}
+		// add nothing
 	}
 
 	// protected void onResume() {
